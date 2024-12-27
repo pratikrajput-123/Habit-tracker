@@ -1,0 +1,26 @@
+.analytics-container {
+    background: #f9fafb;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .analytics-title {
+    color: #4caf50;
+    font-size: 18px;
+  }
+  
+  .analytics-text,
+  .analytics-category,
+  .analytics-type {
+    margin: 10px 0;
+  }
+  
+  .analytics-category h4,
+  .analytics-type h4 {
+    font-size: 16px;
+    color: #333;
+  }
+  

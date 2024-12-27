@@ -1,0 +1,152 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    color: #333;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-section input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-section button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .input-section button:hover {
+    background: #0056b3;
+  }
+  
+  .habits-list {
+    margin-top: 20px;
+  }
+  
+  .no-habits {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+  }
+  
+  .habit-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .habit-item .habit-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .habit-item .habit-display span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .habit-item .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .habit-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .habit-item button:first-child {
+    background: #ffc107;
+    color: #333;
+  }
+  
+  .habit-item button:first-child:hover {
+    background: #e0a800;
+  }
+  
+  .habit-item button:last-child {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .habit-item button:last-child:hover {
+    background: #b02a37;
+  }
+  
+  .edit-habit {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-habit input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .edit-habit button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  
+  .edit-habit button:first-child {
+    background: #28a745;
+    color: white;
+  }
+  
+  .edit-habit button:first-child:hover {
+    background: #218838;
+  }
+  
+  .edit-habit button:last-child {
+    background: #6c757d;
+    color: white;
+  }
+  
+  .edit-habit button:last-child:hover {
+    background: #5a6268;
+  }
+  

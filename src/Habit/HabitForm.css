@@ -1,0 +1,88 @@
+/* General form styling */
+.habit-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.habit-form__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Input styling */
+.habit-form__input,
+.habit-form__textarea,
+.habit-form__select {
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.habit-form__input:focus,
+.habit-form__textarea:focus,
+.habit-form__select:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.habit-form__textarea {
+  height: 80px;
+  resize: none;
+}
+
+.habit-form__input--text {
+  margin-bottom: 10px;
+}
+
+.habit-form__input--target {
+  margin-top: 10px;
+}
+
+/* Button styling */
+.habit-form__button {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.habit-form__button:hover {
+  background-color: #45a049;
+}
+
+/* Placeholder styling for better visibility */
+.habit-form__input::placeholder,
+.habit-form__textarea::placeholder {
+  color: #aaa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .habit-form {
+    padding: 15px;
+  }
+
+  .habit-form__title {
+    font-size: 1.25rem;
+  }
+}
